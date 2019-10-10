@@ -152,13 +152,13 @@ Template.projects.events({
       Meteor.call('editProjectModal', id);
     }
   },
-  'click .toggle': function(event) {
-    var toggle = Session.get(event.currentTarget.id);
+  // 'click .toggle': function(event) {
+  //   var toggle = Session.get(event.currentTarget.id);
 
-    if (!toggle) {
-      Session.set(event.currentTarget.id, true);
-    } else {
-      Session.set(event.currentTarget.id, false);
-    }
-  }
+  //   if (!toggle) {
+  //     Session.set(event.currentTarget.id, true);
+  //   } else {
+  //     Session.set(event.currentTarget.id, false);
+  //   }
+  // }
 });

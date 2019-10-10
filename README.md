@@ -1,8 +1,18 @@
-# MeteorProject
-Tracking and Development of Student Web App
+# TMS-Meteor / MeteorProject
+TMS-Meteor / MeteorProject was created during the Spring semester of 2018 for the CSCI680 - Web App Frameworks class final group project.
 
-**[Live Preview](http://www.rurikid.com/meteor.html)**
+With this app users are enabled to be assigned into group projects via the supervisor user role, where they will be able to login, manage and submit a personal timesheet record.
+
+NOTICE: This copy of "MeteorProject" is a reupload copy originally forked from https://github.com/rurikid/tms-meteor
 --------------------------------------------
+
+**Credits**
+--------------------------------------------
+Credits to this application belong to the contributors:
+[rurikid](https://github.com/rurikid)
+[MWight20](https://github.com/MWight20)
+[Myrline](https://github.com/msylveus)
+
 
 **Installation**
 --------------------------------------------
@@ -25,19 +35,16 @@ Documentation | Node.js | Tutorials
 [MongoDB Tutorial](https://www.tutorialspoint.com/mongodb/index.htm) | | [Your Second Meteor Application](http://meteortips.com/second-meteor-tutorial/)
 [RegExr](https://regexr.com/) | | [Getting Started with Meteor](https://themeteorchef.com/tutorials/getting-started-with-meteor)
 
-**TODO**
---------------------------------------------
-```
-> Improve add/remove project member functionality
-> Create Starting Database within startup/server/fixtures.js (EASY)(Required Use Case)
-> Evaluate Functionality (EASY)(Would Be Nice)
-> Improve Stylization (EASY)(Would Be Nice)
-> Implement update password/email for users (HARD)(Would Be Nice)
-> Implement sort for columns (HARD)(Would Be Nice)
-```
 
 **Patch Notes**
 --------------------------------------------
+**10Oct2019**
+```
+> Complete database wipe
+> Database filled with more approrpriately formatted sample data
+> Project page modifications - table's no longer togglable 
+```
+
 **24Apr2018** - mwight
 ```
 > Edit project and new project now reduced to operating out of a single multibox - down from two.  

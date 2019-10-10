@@ -80,16 +80,15 @@
 										<th width="20%">Your Role: {{getUserRole project.supervisor project.employees}}</th>
 									</tr>
 								</thead>
-								{{#if isToggled project._id}}
+								<!-- {{#if isToggled project._id}} -->
 									<tbody>
 										<tr>
 											<td colspan="6">
-
 											<!-- Begin Project Member Table -->
-	                    <div class="table-responsive">
-	                      <table class="table" style="font-size: 12px;">
-	                        <thead style="background-color: #d3a944">
-	                        	<tr>
+												<div>
+												<table class="table" style="font-size: 12px;">
+													<thead style="background-color: #d3a944">
+														<tr>
 															<th width="33%">Project Member</th>
 															<th width="33%">Member Email</th>
 															<th width="33%">Member Position</th>
@@ -104,13 +103,13 @@
 															</tr>
 														{{/each}}
 													</tbody>
-												</table>
-											</div>
+													</table>
+												</div>
 
 											</td>
 										</tr>
 									</tbody>
-								{{/if}}
+								<!-- {{/if}} -->
 							</table>
 						</div>
 					{{/if}}
